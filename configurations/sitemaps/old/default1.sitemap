@@ -1,0 +1,41 @@
+sitemap default1 label="Home"{
+  Frame label="My House" {
+    Text label="Wohnzimmer" icon="sofa" {
+      Text label="Raspberry Pi" icon="inverter"  {
+	Text label="GPIO" icon="switch-on" {
+        //------------------------------------------------------------------------
+        // Raspberry Pi
+        // GPIO
+        //------------------------------------------------------------------------
+
+        Switch item=LEDs icon="whites"
+        Switch item=RaspiLEDrd
+        Switch item=RaspiLEDgn 
+        Switch item=RaspiLEDbl
+	}
+	//https://github.com/openhab/openhab/wiki/Raspberry-Pi-System-Temperature
+    	Text item=System_Temperature_CPU label="Temperature [%.1f °C]" {
+    	Frame {
+          Text item=System_Temperature_CPU                    
+          Text item=System_Temperature_GP
+    	  }
+    	  Frame {
+     	    Switch item=System_Temperature_Chart_Period mappings=[0="1h", 1="4h", 2="8h", 3="12h", 4="24h"]
+      	    Chart  item=System_Temperature_Chart period=h   refresh=60000 visibility=[System_Temperature_Chart_Period==0, System_Temperature_Chart_Period=="Uninitialized"]
+	    chart  item=System_Temperature_Chart period=4h  refresh=60000 visibility=[System_Temperature_Chart_Period==1]
+	    Chart  item=System_Temperature_Chart period=8h  refresh=60000 visibility=[System_Temperature_Chart_Period==2]
+	    Chart  item=System_Temperature_Chart period=12h refresh=60000 visibility=[System_Temperature_Chart_Period==3]
+	    Chart  item=System_Temperature_Chart period=D   refresh=60000 visibility=[System_Temperature_Chart_Period==4]
+	  }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

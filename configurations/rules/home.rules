@@ -1,0 +1,44 @@
+rule "Startup"
+when
+	System started
+then
+	sendCommand(RaspiLEDgn, ON)
+end
+
+rule "Button1 pressed"
+when
+	Item RaspiButton1 changed
+then
+//	logInfo("Button1", "Button1 pressed")
+	if(RaspiButton1.state==CLOSED) {
+		if(RaspiButton2.state==CLOSED) LEDs.send(OFF)
+		else sendCommand(RaspiLEDbl, ON)
+	}
+	else sendCommand(RaspiLEDbl, OFF)
+end
+
+rule "Button2 toggle"
+when
+	Item RaspiButton2 changed to CLOSED
+then
+//	logInfo("Button2", "Button2 pressed")
+	if(RaspiLEDrd.state==ON) sendCommand(RaspiLEDrd, OFF)
+	else sendCommand(RaspiLEDrd, ON)
+end
+
+
+rule "All LEDs ON"
+when 
+	Item LEDs received update 
+then 
+	logInfo("LEDs", "LEDs updated")
+end
+
+rule "Shutdown"
+//info: does not apply to CTRL+D
+when
+	System shuts down
+then
+	logInfo("Shutdown","Rule triggered")
+	LEDs.send(OFF)
+end

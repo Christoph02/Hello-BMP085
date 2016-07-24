@@ -1,0 +1,10 @@
+// System temperatures
+Group  System_Temperature_Chart (System, Charts)
+Number System_Temperature_Chart_Period "Periode" (System)
+Number System_Temperature_CPU "Temperature CPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[cat /sys/class/thermal/thermal_zone0/temp:60000:JS(milli.js)]" }
+Number System_Temperature_GPU "Temperature GPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[/opt/vc/bin/vcgencmd measure_temp:60000:REGEX(temp=(.*?)'C)]" }
+
+//Executing Python scripts on Raspberry Pi
+//https://community.openhab.org/t/executing-python-scripts-on-raspberry-pi/6281
+Number LivingRoom_Temperature "Temperatur [%.1f °C]"" <temperature> { exec="<[/usr/bin/python3 /home/pi/workspace/openhab/current_project/configurations/scripts/gettemp.py:60000:REGEX(temp=(.*?)'C)]" }
+Number LivingRoom_Pressure "Luftdruck [%.1f mbar]" <sun_clouds> { exec="<[/usr/bin/python3 /home/pi/workspace/openhab/current_project/configurations/scripts/getpressure.py:60000:REGEX(temp=(.*?)'C)]" }

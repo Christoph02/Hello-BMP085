@@ -1,0 +1,16 @@
+//------------------------------------------------------------------------
+// Raspberry Pi
+// GPIO
+//------------------------------------------------------------------------
+// see https://github.com/openhab/openhab/wiki/GPIO-Binding
+Group All "Alles"
+Group:Switch:OR(ON, OFF) LEDs "Alle LEDs [(%d)]" <light> (All)
+
+Switch RaspiLEDrd "Raspberry red LED" (All, LEDs) { gpio="pin:18 force:yes" }
+Switch RaspiLEDgn "Raspberry green LED" (All, LEDs) { gpio="pin:22", force="yes" }
+Switch RaspiLEDbl "Raspberry blue LED" (All, LEDs) { gpio="pin:14", force="yes" }
+
+Contact RaspiButton1 "Push Button1" (All, Buttons) { gpio="pin:27 activelow:yes force:yes", autoupdate="true" }
+Contact RaspiButton2 "Push Button2" (All, Buttons) { gpio="pin:17 activelow:yes force:yes", debounce="10" } 
+
+
