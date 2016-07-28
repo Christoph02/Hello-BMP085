@@ -1,6 +1,5 @@
 logs/
 *.zip
 etc/rrd4j/*.rrd
-server/configuration/*.log
-server/configuration/org.eclipse.osgi/
+server/configuration/
 workspace/

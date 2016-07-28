@@ -3419,3 +3419,152 @@ TypeError: unsupported operand type(s) for /: 'str' and 'int'
 2016-07-24 15:40:11 - LivingRoom_Pressure state updated to 969.74
 2016-07-24 15:40:11 - System_Temperature_CPU state updated to 53.692
 2016-07-24 15:40:11 - LivingRoom_Temperature state updated to 28.10
+2016-07-28 23:14:27 - RaspiButton2 state updated to OPEN
+2016-07-28 23:14:27 - RaspiLEDrd state updated to OFF
+2016-07-28 23:14:27 - RaspiButton1 state updated to OPEN
+2016-07-28 23:14:27 - RaspiLEDgn state updated to OFF
+2016-07-28 23:14:27 - RaspiLEDbl state updated to OFF
+2016-07-28 23:14:27 - System_Temperature_GPU state updated to 54.2
+2016-07-28 23:14:27 - LivingRoom_Pressure state updated to 968.77
+2016-07-28 23:14:27 - System_Temperature_CPU state updated to 54.768
+2016-07-28 23:14:28 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:14:30 - RaspiLEDgn received command ON
+2016-07-28 23:15:28 - System_Temperature_GPU state updated to 51.5
+2016-07-28 23:15:28 - LivingRoom_Pressure state updated to 968.71
+2016-07-28 23:15:28 - System_Temperature_CPU state updated to 52.615
+2016-07-28 23:15:28 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:15:33 - RaspiLEDbl received command ON
+2016-07-28 23:15:35 - RaspiLEDrd received command ON
+2016-07-28 23:15:37 - LEDs received command OFF
+2016-07-28 23:15:37 - RaspiLEDrd received command OFF
+2016-07-28 23:15:37 - RaspiLEDgn received command OFF
+2016-07-28 23:15:37 - RaspiLEDbl received command OFF
+2016-07-28 23:15:41 - System_Temperature_Chart_Period received command 0
+2016-07-28 23:15:49 - System_Temperature_Chart_Period received command 1
+2016-07-28 23:16:28 - System_Temperature_GPU state updated to 51.5
+2016-07-28 23:16:29 - LivingRoom_Pressure state updated to 968.71
+2016-07-28 23:16:29 - System_Temperature_CPU state updated to 52.078
+2016-07-28 23:16:29 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:17:29 - System_Temperature_GPU state updated to 51.0
+2016-07-28 23:17:30 - LivingRoom_Pressure state updated to 968.74
+2016-07-28 23:17:30 - System_Temperature_CPU state updated to 52.078
+2016-07-28 23:17:30 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:18:30 - System_Temperature_GPU state updated to 51.0
+2016-07-28 23:18:31 - LivingRoom_Pressure state updated to 968.66
+2016-07-28 23:18:31 - System_Temperature_CPU state updated to 52.078
+2016-07-28 23:18:31 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:19:31 - System_Temperature_GPU state updated to 51.5
+2016-07-28 23:19:31 - LivingRoom_Pressure state updated to 968.90
+2016-07-28 23:19:32 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:19:32 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:20:32 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:20:32 - LivingRoom_Pressure state updated to 968.82
+2016-07-28 23:20:32 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:20:33 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:21:33 - System_Temperature_GPU state updated to 51.5
+2016-07-28 23:21:33 - LivingRoom_Pressure state updated to 968.77
+2016-07-28 23:21:33 - System_Temperature_CPU state updated to 52.078
+2016-07-28 23:21:34 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:21:46 - System_Temperature_Chart_Period received command 1
+2016-07-28 23:21:47 - System_Temperature_Chart_Period received command 0
+2016-07-28 23:21:49 - System_Temperature_Chart_Period received command 1
+2016-07-28 23:21:49 - System_Temperature_Chart_Period received command 2
+2016-07-28 23:21:52 - System_Temperature_Chart_Period received command 3
+2016-07-28 23:21:53 - System_Temperature_Chart_Period received command 4
+2016-07-28 23:22:34 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:22:34 - LivingRoom_Pressure state updated to 968.80
+2016-07-28 23:22:34 - System_Temperature_CPU state updated to 52.078
+2016-07-28 23:22:34 - RaspiLEDgn received command ON
+2016-07-28 23:22:34 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:22:37 - RaspiLEDgn received command OFF
+2016-07-28 23:23:27 - RaspiLEDgn received command ON
+2016-07-28 23:23:34 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:23:35 - LivingRoom_Pressure state updated to 968.80
+2016-07-28 23:23:35 - System_Temperature_CPU state updated to 52.078
+2016-07-28 23:23:35 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:24:35 - System_Temperature_GPU state updated to 51.0
+2016-07-28 23:24:36 - LivingRoom_Pressure state updated to 968.82
+2016-07-28 23:24:36 - System_Temperature_CPU state updated to 52.615
+2016-07-28 23:24:36 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:24:44 - System_Temperature_Chart_Period received command 0
+2016-07-28 23:24:45 - System_Temperature_Chart_Period received command 0
+2016-07-28 23:24:46 - System_Temperature_Chart_Period received command 3
+2016-07-28 23:24:50 - System_Temperature_Chart_Period received command 0
+2016-07-28 23:25:36 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:25:37 - LivingRoom_Pressure state updated to 968.89
+2016-07-28 23:25:37 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:25:37 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:25:58 - System_Temperature_Chart_Period received command 1
+2016-07-28 23:25:59 - System_Temperature_Chart_Period received command 1
+2016-07-28 23:26:01 - System_Temperature_Chart_Period received command 2
+2016-07-28 23:26:01 - System_Temperature_Chart_Period received command 3
+2016-07-28 23:26:02 - System_Temperature_Chart_Period received command 4
+2016-07-28 23:26:03 - System_Temperature_Chart_Period received command 0
+2016-07-28 23:26:14 - System_Temperature_Chart_Period received command 1
+2016-07-28 23:26:37 - System_Temperature_GPU state updated to 51.5
+2016-07-28 23:26:37 - LivingRoom_Pressure state updated to 968.89
+2016-07-28 23:26:37 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:26:38 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:27:38 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:27:38 - LivingRoom_Pressure state updated to 968.88
+2016-07-28 23:27:38 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:27:39 - LivingRoom_Temperature state updated to 27.00
+2016-07-28 23:28:00 - System_Temperature_Chart_Period received command 0
+2016-07-28 23:28:01 - System_Temperature_Chart_Period received command 0
+2016-07-28 23:28:39 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:28:39 - LivingRoom_Pressure state updated to 968.92
+2016-07-28 23:28:39 - System_Temperature_CPU state updated to 52.078
+2016-07-28 23:28:40 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:29:40 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:29:40 - LivingRoom_Pressure state updated to 968.89
+2016-07-28 23:29:40 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:29:40 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:30:40 - System_Temperature_GPU state updated to 51.0
+2016-07-28 23:30:41 - LivingRoom_Pressure state updated to 968.83
+2016-07-28 23:30:41 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:30:41 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:31:41 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:31:42 - LivingRoom_Pressure state updated to 968.85
+2016-07-28 23:31:42 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:31:42 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:32:26 - System_Temperature_Chart_Period received command 1
+2016-07-28 23:32:28 - System_Temperature_Chart_Period received command 0
+2016-07-28 23:32:42 - System_Temperature_GPU state updated to 51.0
+2016-07-28 23:32:43 - LivingRoom_Pressure state updated to 968.94
+2016-07-28 23:32:43 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:32:43 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:33:43 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:33:43 - LivingRoom_Pressure state updated to 968.94
+2016-07-28 23:33:43 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:33:44 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:34:44 - System_Temperature_GPU state updated to 51.0
+2016-07-28 23:34:44 - LivingRoom_Pressure state updated to 968.92
+2016-07-28 23:34:44 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:34:45 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:35:25 - LivingRoom_Temperature_Chart_Period received command 0
+2016-07-28 23:35:26 - LivingRoom_Temperature_Chart_Period received command 1
+2016-07-28 23:35:28 - LivingRoom_Temperature_Chart_Period received command 0
+2016-07-28 23:35:45 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:35:45 - LivingRoom_Pressure state updated to 968.95
+2016-07-28 23:35:45 - System_Temperature_CPU state updated to 52.078
+2016-07-28 23:35:46 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:35:46 - LEDs received command ON
+2016-07-28 23:35:46 - RaspiLEDrd received command ON
+2016-07-28 23:35:46 - RaspiLEDgn received command ON
+2016-07-28 23:35:46 - RaspiLEDbl received command ON
+2016-07-28 23:35:49 - LEDs received command OFF
+2016-07-28 23:35:49 - RaspiLEDrd received command OFF
+2016-07-28 23:35:49 - RaspiLEDgn received command OFF
+2016-07-28 23:35:49 - RaspiLEDbl received command OFF
+2016-07-28 23:36:46 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:36:46 - LivingRoom_Pressure state updated to 968.89
+2016-07-28 23:36:46 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:36:46 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:37:47 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:37:47 - LivingRoom_Pressure state updated to 968.94
+2016-07-28 23:37:47 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:37:47 - LivingRoom_Temperature state updated to 26.90
+2016-07-28 23:38:47 - System_Temperature_GPU state updated to 50.5
+2016-07-28 23:38:48 - LivingRoom_Pressure state updated to 968.95
+2016-07-28 23:38:48 - System_Temperature_CPU state updated to 51.54
+2016-07-28 23:38:48 - LivingRoom_Temperature state updated to 26.90
