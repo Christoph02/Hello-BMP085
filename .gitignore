@@ -2,4 +2,4 @@ logs/
 *.zip
 etc/rrd4j/*.rrd
 server/configuration/
-workspace/
+workspace/*
