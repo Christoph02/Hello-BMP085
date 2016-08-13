@@ -14,5 +14,5 @@ Number LivingRoom_Temperature_Chart_Period "Periode" (System)
 
 //Executing Python scripts on Raspberry Pi
 //https://community.openhab.org/t/executing-python-scripts-on-raspberry-pi/6281
-Number LivingRoom_Temperature "Temperatur [%.1f °C]" <temperature> (LivingRoom_Temperature_Chart) { exec="<[python3 ./configurations/scripts/gettemp.py:60000:REGEX(temp=(.*?)'C)]" }
-Number LivingRoom_Pressure "Luftdruck [%.1f mbar]" <sun_clouds> { exec="<[python3 ./configurations/scripts/getpressure.py:60000:REGEX(temp=(.*?)'C)]" }
+Number LivingRoom_Temperature "Temperature [%.1f °C]" <temperature> (LivingRoom_Temperature_Chart) { exec="<[python3 ./configurations/scripts/gettemp.py:60000:REGEX(temp=(.*?)'C)]" }
+Number LivingRoom_Pressure "Pressure [%.1f mbar]" <sun_clouds> { exec="<[python3 ./configurations/scripts/getpressure.py:60000:REGEX(temp=(.*?)'C)]" }
