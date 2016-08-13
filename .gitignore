@@ -2,4 +2,8 @@
 # IntelliJ files
 **/.idea
 **/*.iml
+etc/rrd4j/
+logs/
+server/configuration/
+workspace/.metadata/
 
