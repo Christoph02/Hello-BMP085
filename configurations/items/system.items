@@ -2,7 +2,7 @@
 // Robert van Bregt 
 // System temperatures
 Group  System_Temperature_Chart (System, Charts)
-Number System_Temperature_Chart_Period "Periode" (System)
+Number System_Temperature_Chart_Period "Period" (System)
 
 //Number System_Temperature_CPU "Temperature CPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[cat /sys/class/thermal/thermal_zone0/temp:60000:JS(milli.js)]" }
 Number System_Temperature_CPU "Temperature CPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[./configurations/scripts/getRPIcpuTemp.sh:60000:REGEX(temp=(.*?)'C)]" }
@@ -10,7 +10,7 @@ Number System_Temperature_GPU "Temperature GPU [%.1f °C]" <temperature> (System
 
 
 Group  LivingRoom_Temperature_Chart (System, Charts)
-Number LivingRoom_Temperature_Chart_Period "Periode" (System)
+Number LivingRoom_Temperature_Chart_Period "Period" (System)
 
 //Executing Python scripts on Raspberry Pi
 //https://community.openhab.org/t/executing-python-scripts-on-raspberry-pi/6281
