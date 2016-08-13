@@ -12,7 +12,7 @@ Clients:
 
 1. View pressure, temperature, raspberry CPU and GPU temperature
 ```
-![Openhab temp](workspace/images/openhab-temp.png?raw=true)
+![Openhab temp](mydocu/images/openhab-temp.png?raw=true)
 ```
 2. Toggle LEDs (from Hello-World)
 using clients or switches on Breadboard
@@ -33,7 +33,7 @@ Button 1 pressed + Button 2 pressed: LEDs -> OFF
 - Breadboard and cable  
 
 ## Setup
-![Frizzing Setup](workspace/images/project-setup.png?raw=true)
+![Frizzing Setup](mydocu/images/project-setup.png?raw=true)
   
 ## Installation
 
