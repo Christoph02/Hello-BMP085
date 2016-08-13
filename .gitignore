@@ -1,5 +1,5 @@
-logs/
-*.zip
-etc/rrd4j/*.rrd
-server/configuration/
-workspace/*
+*~
+# IntelliJ files
+**/.idea
+**/*.iml
+
