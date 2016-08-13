@@ -4,7 +4,7 @@ This project contains the core runtime package and several addons of openHAB.
 See https://github.com/openhab/openhab/wiki/Quick-Setup-an-openHAB-Server  
 ```
 ## Description
-####Example using BMP085, LEDs and Switches
+### Example using BMP085, LEDs and Switches
 ```
 Clients:
 - Webbrowser
@@ -23,13 +23,13 @@ Button 1 pressed + Button 2 pressed: LEDs -> OFF
 
 ## Hardware:
 - Raspberry PI 3 Model B
-<<<<<<< HEAD
 - BMP085 (low-power barometric pressure sensor)
 - 3x LEDs (gn, bl, rd)
 - 2x Switch
 - Restistor: 3x250Ω, 2x1kΩ  
 - Breadboard and cable  
-  
+
+## Setup
 ![Frizzing Setup](workspace/images/project-setup.png?raw=true)
   
 ## Installation
@@ -42,7 +42,7 @@ Button 1 pressed + Button 2 pressed: LEDs -> OFF
 ```  
 
 ### Install and run project
-  Download [ZIP](https://gitlab.fritz.box/Smarthome/Hello-World/repository/archive.zip?ref=master)  
+  Download [ZIP](https://gitlab.fritz.box/Smarthome/Hello-BMP085/repository/archive.zip?ref=master)  
   Extract ZIP to /opt 
   
 ### Start openhab with adminrights
