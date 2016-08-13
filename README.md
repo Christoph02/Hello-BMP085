@@ -1,5 +1,4 @@
 # Project: BMP085, LEDs and Switches connected to Raspberry PI    
-Info:
 ```
 This project contains the core runtime package and several addons of openHAB.  
 See https://github.com/openhab/openhab/wiki/Quick-Setup-an-openHAB-Server  
@@ -24,6 +23,7 @@ Button 1 pressed + Button 2 pressed: LEDs -> OFF
 
 ## Hardware:
 - Raspberry PI 3 Model B
+<<<<<<< HEAD
 - BMP085 (low-power barometric pressure sensor)
 - 3x LEDs (gn, bl, rd)
 - 2x Switch
