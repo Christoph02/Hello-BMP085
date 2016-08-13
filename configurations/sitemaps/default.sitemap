@@ -1,7 +1,7 @@
 sitemap default label="Home"{
   Frame label="My House" {
     Text item=LivingRoom_Pressure
-    Text label="Wohnzimmer" icon="sofa" {
+    Text label="Livingroom" icon="sofa" {
       Text label="Raspberry Pi" icon="inverter"  {
         Text label="GPIO" icon="switch-on" {
           //------------------------------------------------------------------------
