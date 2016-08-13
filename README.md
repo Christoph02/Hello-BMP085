@@ -11,8 +11,10 @@ Clients:
 - Openhab mobile App
 
 1. View pressure, temperature, raspberry CPU and GPU temperature
---- from Hello-World:
-2. Toggle LEDs 
+
+![Openhab temp](workspace/images/openhab-temp.png?raw=true)
+
+2. Toggle LEDs (from Hello-World)
 using clients or switches on Breadboard
 
 ####Switches:
