@@ -61,12 +61,12 @@ Button 1 pressed + Button 2 pressed: LEDs -> OFF
 
 ### Openhab
 [Openhab.org](http://www.openhab.org/)
-[distribution-1.8.3-runtime] (https://bintray.com/artifact/download/openhab/bin/distribution-1.8.3-runtime.zip)
-[distribution-1.8.3-addons] (https://bintray.com/artifact/download/openhab/bin/distribution-1.8.3-addons.zip)
+[distribution-1.8.3-runtime](https://bintray.com/artifact/download/openhab/bin/distribution-1.8.3-runtime.zip)
+[distribution-1.8.3-addons](https://bintray.com/artifact/download/openhab/bin/distribution-1.8.3-addons.zip)
 ### Addon builds 1.9.0, corrections for switch issues
-[Raspian Jessie / GPIO input - Alejandro Guirao] (https://community.openhab.org/t/raspian-jessie-gpio-input/3448/40)
-[org.openhab.binding.gpio-1.9.0-SNAPSHOT.jar] (https://www.dropbox.com/s/9iv1pq7da48zmwq/org.openhab.io.gpio-1.9.0-SNAPSHOT.jar?dl=0)
-[org.openhab.io.gpio-1.9.0-SNAPSHOT.jar] (https://www.dropbox.com/s/r5uutaz2gbq8leo/org.openhab.binding.gpio-1.9.0-SNAPSHOT.jar?dl=0)
+[Raspian Jessie / GPIO input - Alejandro Guirao](https://community.openhab.org/t/raspian-jessie-gpio-input/3448/40)
+[org.openhab.binding.gpio-1.9.0-SNAPSHOT.jar](https://www.dropbox.com/s/9iv1pq7da48zmwq/org.openhab.io.gpio-1.9.0-SNAPSHOT.jar?dl=0)
+[org.openhab.io.gpio-1.9.0-SNAPSHOT.jar](https://www.dropbox.com/s/r5uutaz2gbq8leo/org.openhab.binding.gpio-1.9.0-SNAPSHOT.jar?dl=0)
 
 ---
 ## CE (Community Edition) Software for Development 
